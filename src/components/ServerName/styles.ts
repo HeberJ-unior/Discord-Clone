@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { ExpandMore } from 'styled-icons/material';
 
-
 export const Container = styled.div`
     display: flex;
     align-items: center;
@@ -30,7 +29,7 @@ export const ExpandIcon = styled(ExpandMore)`
     width: 28px;
     height: 28px;
     
-    color: : var(--white);
+    color: var(--white);
     cursor: pointer;
     
     
