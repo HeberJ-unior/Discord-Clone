@@ -17,7 +17,7 @@ export const Container = styled.div`
 
 `; 
 
-export const Title = styled.div`
+export const Title = styled.h1`
     font-size: 16px;
     font-weight: bold;
     
@@ -31,6 +31,10 @@ export const ExpandIcon = styled(ExpandMore)`
     
     color: var(--white);
     cursor: pointer;
-    
-    
+        
 `;
+
+
+
+
+
