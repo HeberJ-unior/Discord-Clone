@@ -16,7 +16,7 @@ const ChannelInfo: React.FC = ( ) => {
 
             <Title>chat-livre</Title>
             <Separator />
-            <Description>CAnal aberto para conversa</Description>
+            <Description>Canal aberto para conversa</Description>
         
         </Container >
     );
