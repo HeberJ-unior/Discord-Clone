@@ -17,7 +17,8 @@ import UserList from '../UserList';
 import ChannelData from '../ChannelData';
 
 
-const Layout: React.FC = ( ) => {
+const Layout: React.FC = () => {
+    // configurações estruturais de acordo com uma grid pé definida
     return (
         <Grid>
             <ServerList />

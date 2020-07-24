@@ -4,6 +4,7 @@ import { PersonAdd, Settings } from 'styled-icons/material'
 
 
 export const Container = styled.div`
+/* configurando a estética da área de escolha de canais */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +35,7 @@ export const Container = styled.div`
         }
     }
 `; 
-
+// configurações visuais do ícone de Hashtag
 export const HashtagIcon = styled(Hashtag)`
     width: 20px;
     height: 20px;
@@ -43,6 +44,7 @@ export const HashtagIcon = styled(Hashtag)`
     
 
 `;
+// configurações visuais do ícone de convite para o chat
 
 export const InviteIcon = styled(PersonAdd)`
     width: 16px;
@@ -58,6 +60,7 @@ export const InviteIcon = styled(PersonAdd)`
     }
 
 `;
+// configurações visuais do ícone de configurações
 
 export const SettingsIcon = styled(Settings)`
     width: 16px;

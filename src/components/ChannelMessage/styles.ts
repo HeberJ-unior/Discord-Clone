@@ -82,12 +82,14 @@ export const Header = styled.div`
 `;
 
 export const Content = styled.div`
+    /* Configurações visuais do conteudo das mensagens */
     text-align: left;
     font-size: 16px;
     color: var(--white);
 `;
 
 export const Mention = styled.span`
+    /* configurações visuais caso ocorra alguma menção de nome ou cargo  */
     color: var(--link);
     cursor: pointer;
 

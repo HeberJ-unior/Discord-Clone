@@ -1,15 +1,9 @@
 import React from 'react';
 
-// export default function ServerName() {
-//     return(
-//         <div>Olá</div>
-//     )
-// }
-
 import { Container, HashtagIcon, Title, Separator, Description } from './styles';
 
-
 const ChannelInfo: React.FC = ( ) => {
+    // configuração estrutural das informações do chat atual.
     return (
         <Container>
             <HashtagIcon />

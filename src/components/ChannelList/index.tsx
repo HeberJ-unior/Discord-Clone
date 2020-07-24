@@ -5,13 +5,13 @@ import ChannelButton from '../ChannelButton';
 import { Container, Category, AddCategoryIcon } from './styles';
 
 const ChannelList: React.FC = ( ) => {
+    // Configurações estruturais do menu de chats
     return (
         <Container>
             <Category>
                 <span>Canais de texto</span>
                 <AddCategoryIcon />
             </ Category>
-
             <ChannelButton channelName= "Chat-Livre"/>
             <ChannelButton channelName= "trabalho"/>
             <ChannelButton channelName= "cs"/>

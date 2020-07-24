@@ -4,6 +4,7 @@ import { AlternateEmail } from 'styled-icons/material';
 
 
 export const Container = styled.div`
+    /* confifurações visuáis da área que contém as mensagens e o input do chat */
     grid-area: CD;
 
     display: flex;
@@ -14,6 +15,7 @@ export const Container = styled.div`
 `;
 
 export const Messages = styled.div`
+    /* configuração visual de cada mensagem presente no canal de mensagens */
     padding: 20px 0;
     
     display: flex;
@@ -39,6 +41,7 @@ export const Messages = styled.div`
 `;
 
 export const InputWrapper = styled.div`
+    /* configuração visual do container de input de mensagens */
     width: 100%;
     
     padding: 0 16px;
@@ -46,6 +49,7 @@ export const InputWrapper = styled.div`
 `;
 
 export const Input = styled.input`
+    /* configuração visual do input em si */
     width: 100%;
     height: 44px;
     
@@ -72,6 +76,7 @@ export const Input = styled.input`
 `;
 
 export const InputIcon = styled(AlternateEmail)`
+    /* Configuração visual do ícone de '@' antes do input */
     width: 24px;
     height: 24px;
     

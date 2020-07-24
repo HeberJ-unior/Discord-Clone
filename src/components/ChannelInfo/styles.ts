@@ -3,6 +3,7 @@ import { Hashtag } from 'styled-icons/heroicons-outline';
 
 
 export const Container = styled.div`
+    /* Configuração visual do container das informações do chat atual */
     grid-area: CI; 
     display: flex;
     align-items: center;
@@ -16,6 +17,7 @@ export const Container = styled.div`
 `;
 
 export const HashtagIcon = styled(Hashtag)`
+    /* configuração visual do ícone de '#' antes do nome do chat atual */
     width: 24px;
     height: 24px;
     
@@ -24,6 +26,7 @@ export const HashtagIcon = styled(Hashtag)`
 `;
 
 export const Title = styled.h1`
+    /* Configuração visual do título do chat atual */
     margin-left: 9px;
     
     font-size: 16px;
@@ -34,6 +37,7 @@ export const Title = styled.h1`
 `;
 
 export const Separator = styled.div`
+    /* Configuração visual da separação entre o título do chat e a descrição do chat atual */
     height: 24px;
     width: 1px;
 
@@ -45,9 +49,8 @@ export const Separator = styled.div`
 `;
 
 export const Description = styled.span`
+    /* Configuração visual da descrição do chat atual */
     font-size: 15px;
     color: var(--gray);
     
-
-
 `;

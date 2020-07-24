@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    /* Configurações visuais do container de usuários */
     grid-area: UL;
 
     display: flex;

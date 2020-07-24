@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Props } from '.';
 
 export const Button = styled.button<Props>`
+  /* configurações visuais de cada botão de servidor */
   display: flex;
   align-items: center;
   justify-content: center;

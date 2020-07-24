@@ -5,6 +5,7 @@ import { Container, Profile, Avatar, UserData, Icons, MicIcon, HeadphoneIcon, Se
 
 const UserInfo: React.FC = ( ) => {
     return (
+        // Configurações estruturais da área de informações do usuário
         <Container>
             <Profile>
                 <Avatar />

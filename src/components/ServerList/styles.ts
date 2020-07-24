@@ -1,6 +1,7 @@
 import styled from "styled-components";
  
 export const Container = styled.div`
+/* Configurações estruturais do container da lista de servidores */
   grid-area: SL;
   
   display: flex;
@@ -18,6 +19,7 @@ export const Container = styled.div`
   }
 `;
 export const Separator = styled.div`
+  /* Configurações visuais separando os servidores e a home da aplicação */
   width: 32px;
   border-bottom:2px solid var(--quaternary);
 

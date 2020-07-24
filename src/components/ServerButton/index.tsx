@@ -6,6 +6,7 @@ import { Button } from './styles';
 
 
 export interface Props { 
+  // Gonfigurando uma interface de cada servidor
   selected?: boolean;
   isHome?: boolean;
   hasNotifications?: boolean;
@@ -15,6 +16,7 @@ export interface Props {
 
 
 const ServerButton: React.FC<Props> = ({
+  // Configurações estruturais de cada botão de servidor
   selected,
   isHome,
   hasNotifications,
