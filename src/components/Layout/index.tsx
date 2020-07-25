@@ -1,11 +1,5 @@
 import React from 'react';
 
-// export default function Layout() {
-//     return(
-//         <div>Olá</div>
-//     )
-// }
-
 import { Grid } from './styles';
 
 import ServerList from '../ServerList';
@@ -17,8 +11,8 @@ import UserList from '../UserList';
 import ChannelData from '../ChannelData';
 
 
+// configurações estruturais de acordo com uma grid pé definida
 const Layout: React.FC = () => {
-    // configurações estruturais de acordo com uma grid pé definida
     return (
         <Grid>
             <ServerList />

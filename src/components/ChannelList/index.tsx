@@ -4,8 +4,8 @@ import ChannelButton from '../ChannelButton';
 
 import { Container, Category, AddCategoryIcon } from './styles';
 
+// Configurações estruturais do menu de chats
 const ChannelList: React.FC = ( ) => {
-    // Configurações estruturais do menu de chats
     return (
         <Container>
             <Category>

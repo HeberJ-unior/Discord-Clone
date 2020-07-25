@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-
+// Configurações visuais do container do container de mensagens
 export const Container = styled.div`
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@ export const Container = styled.div`
     }
 `; 
 
-
+// Configurações visuais do avatar do usuário 
 export const Avatar = styled.div`
     flex-shrink: 0;
     width: 40px;
@@ -48,7 +48,7 @@ export const Message = styled.div`
 
     margin-left: 17px;
 `;
-
+// Configurações visuais de nome, se é ou não BOT, data e hora
 export const Header = styled.div`
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@ export const Header = styled.div`
     }
 
     > span {
-        /* configuração da tag de bot quando existente */
+       
         margin-left: 9px;
 
         background-color: var(--discord);
@@ -73,7 +73,7 @@ export const Header = styled.div`
     }
 
     >time {
-        /* gerando configurações visuais da data das mensagens */
+        
         margin-left: 6px;
         color: var(--gray);
         font-size: 13px;
@@ -81,15 +81,15 @@ export const Header = styled.div`
     }
 `;
 
+// Configurações visuais do conteudo das mensagens
 export const Content = styled.div`
-    /* Configurações visuais do conteudo das mensagens */
     text-align: left;
     font-size: 16px;
     color: var(--white);
 `;
 
+// configurações visuais caso ocorra alguma menção de nome ou cargo 
 export const Mention = styled.span`
-    /* configurações visuais caso ocorra alguma menção de nome ou cargo  */
     color: var(--link);
     cursor: pointer;
 

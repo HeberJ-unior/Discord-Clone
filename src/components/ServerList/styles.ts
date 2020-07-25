@@ -1,7 +1,7 @@
 import styled from "styled-components";
  
+// Configurações estruturais do container da lista de servidores
 export const Container = styled.div`
-/* Configurações estruturais do container da lista de servidores */
   grid-area: SL;
   
   display: flex;
@@ -18,8 +18,8 @@ export const Container = styled.div`
     display: none;
   }
 `;
+// Configurações visuais separando os servidores e a home da aplicação
 export const Separator = styled.div`
-  /* Configurações visuais separando os servidores e a home da aplicação */
   width: 32px;
   border-bottom:2px solid var(--quaternary);
 

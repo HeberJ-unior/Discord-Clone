@@ -3,8 +3,8 @@ import { Hashtag } from 'styled-icons/heroicons-outline'
 import { PersonAdd, Settings } from 'styled-icons/material'
 
 
+// configurando a estética da área de escolha de canais
 export const Container = styled.div`
-/* configurando a estética da área de escolha de canais */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,8 +36,8 @@ export const Container = styled.div`
     }
 `; 
 
+// configurações visuais do ícone de Hashtag
 export const HashtagIcon = styled(Hashtag)`
-/* configurações visuais do ícone de Hashtag */
     width: 20px;
     height: 20px;
     
@@ -46,8 +46,8 @@ export const HashtagIcon = styled(Hashtag)`
 
 `;
 
+// configurações visuais do ícone de convite para o chat
 export const InviteIcon = styled(PersonAdd)`
-/* configurações visuais do ícone de convite para o chat */
     width: 16px;
     height: 16px;
     
@@ -62,8 +62,8 @@ export const InviteIcon = styled(PersonAdd)`
 
 `;
 
+// configurações visuais do ícone de configurações
 export const SettingsIcon = styled(Settings)`
-/* configurações visuais do ícone de configurações */
 
     width: 16px;
     height: 16px;

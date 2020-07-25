@@ -3,9 +3,9 @@ import React from 'react';
 import { Container, Profile, Avatar, UserData, Icons, MicIcon, HeadphoneIcon, SettingsIcon } from './styles';
 
 
+// Configurações estruturais da área de informações do usuário
 const UserInfo: React.FC = ( ) => {
     return (
-        // Configurações estruturais da área de informações do usuário
         <Container>
             <Profile>
                 <Avatar />

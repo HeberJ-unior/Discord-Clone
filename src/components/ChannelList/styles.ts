@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import { Add } from 'styled-icons/material';
 
+// configuações visuais do menu de chats
 export const Container = styled.div`
-    /* configuações visuais do menu de chats */
     grid-area: CL;
     display: flex;
     
@@ -13,8 +13,8 @@ export const Container = styled.div`
     
 `; 
 
+// configuração visual de cada categoria de chat
 export const Category = styled.div`
-/* configuração visual de cada categoria de chat */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,8 +31,8 @@ export const Category = styled.div`
     }
 `;
 
+// configuração visual do ícone para adicionar mas um chat
 export const AddCategoryIcon = styled(Add)`
-/* configuração visual do ícone para adicionar mas um chat */
     width: 21px;
     height: 21px;
     

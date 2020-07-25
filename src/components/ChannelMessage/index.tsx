@@ -4,8 +4,8 @@ import { Container, Avatar, Message, Header, Content } from './styles';
 export { Mention } from './styles';
 
 
+// Configurando uma interface de caracteristicas da mensagem
 export interface Props {
-    // Configurando uma interface de caracteristicas da mensagem
     author: string;
     date: string;
     content: string | React.ReactElement | React.ReactNode;
@@ -14,9 +14,9 @@ export interface Props {
 
 }
 
+//Configurações estruturais das mensagens 
 const ServerName: React.FC<Props> = ({author, date, content, hasMention, isBot} ) => {
     return (
-        //Configurações estruturais das mensagens 
         <Container className={hasMention ? 'mention' : ''}>
             <Avatar className={isBot ? 'bot' : ''}/>
             <Message>

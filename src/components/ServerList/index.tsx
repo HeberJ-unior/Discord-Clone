@@ -4,10 +4,10 @@ import ServerButton from '../ServerButton';
 import { Container, Separator } from './styles';
 
 
+// Configurações estruturais dentro da lista de servidores 
 const ServerList: React.FC = () => {
     return(
         <Container>
-            {/* Configurações estruturais dentro da lista de servidores */} 
             <ServerButton isHome />
             
             <Separator />

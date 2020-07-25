@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 import { Props } from '.';
 
+// configurações visuais de cada botão de servidor
 export const Button = styled.button<Props>`
-  /* configurações visuais de cada botão de servidor */
   display: flex;
   align-items: center;
   justify-content: center;

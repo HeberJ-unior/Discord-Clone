@@ -4,11 +4,12 @@ import { Container, Messages, InputWrapper, Input, InputIcon } from './styles';
 
 import ChannelMessage, {Mention} from '../ChannelMessage';
 
+// configuração para rolar a tela para baixo em primeiro acesso à página
+// configurações estruturais do chat de mensagens
 const ChannelData: React.FC = () => {
     const messagesRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 
     useEffect(() => {
-        // configuração para rolar a tela para baixo em primeiro acesso à página
         const div = messagesRef.current;
 
         if (div) {
@@ -17,7 +18,6 @@ const ChannelData: React.FC = () => {
     }, [messagesRef]);
 
     return (
-        // configurações estruturais do chat de mensagens
         <Container>
             <Messages ref={messagesRef}>
                 <ChannelMessage

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import { ExpandMore } from 'styled-icons/material';
 
+// configurações visuais
 export const Container = styled.div`
-    /* configurações visuais */
     display: flex;
     align-items: center;
     
@@ -17,8 +17,8 @@ export const Container = styled.div`
       
 `; 
 
+// Configurações visuais do titulo do servidor
 export const Title = styled.h1`
-    /* Configurações visuais do titulo do servidor */
     font-size: 16px;
     font-weight: bold;
     
@@ -26,8 +26,8 @@ export const Title = styled.h1`
     
 `;
 
+// Configuração visual do icone para expandir as opçoes do servdor
 export const ExpandIcon = styled(ExpandMore)`
-    /* Configuração visual do icone para expandir as opçoes do servdor */
     width: 28px;
     height: 28px;
     

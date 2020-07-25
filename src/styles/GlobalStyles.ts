@@ -1,7 +1,8 @@
 import {createGlobalStyle} from 'styled-components';
 
+// Configurações visuais globais, para evitar de ter que configurar novamente sempre que abrir um novo componente
+// Configurando uma paleta de cores 
 export default createGlobalStyle`
-    /* Configurações visuais globais, para evitar de ter que configurar novamente sempre que abrir um novo componente */
     *{
         margin: 0;
         padding: 0;
@@ -22,7 +23,6 @@ export default createGlobalStyle`
     }  
 
     :root {
-    /* Configurando uma paleta de cores  */
     --primary: #36393f;
     --secondary: #2f3136;
     --tertiary: rgb(32,34,37);

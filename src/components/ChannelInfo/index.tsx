@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Container, HashtagIcon, Title, Separator, Description } from './styles';
 
+// configuração estrutural das informações do chat atual.
 const ChannelInfo: React.FC = ( ) => {
-    // configuração estrutural das informações do chat atual.
     return (
         <Container>
             <HashtagIcon />

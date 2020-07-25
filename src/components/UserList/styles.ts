@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
+// Configurações visuais do container de usuários
 export const Container = styled.div`
-    /* Configurações visuais do container de usuários */
     grid-area: UL;
 
     display: flex;
@@ -30,8 +30,8 @@ export const Container = styled.div`
 
 `;
 
+// Configuração das categorias de usuáros: Online e Offline
 export const Role = styled.div`
-/* Configuração das categorias de usuáros: Online e Offline */
     margin-top: 20px;
     
     text-transform: uppercase;
@@ -40,8 +40,8 @@ export const Role = styled.div`
     color: var(--gray);
 `;
 
+// configuração da aparencia dos usuários dentro da UserList
 export const User = styled.div`
-/* configuração da aparencia dos usuários dentro da UserList */
     margin-top: 5px;
     padding: 5px;
 
@@ -62,13 +62,12 @@ export const User = styled.div`
         font-weight: 500;
         color: var(--white);
         opacity: 0.7;
-        /* Configuração para nomes muito grandes que não cabem na tela */
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+
     }
     > span { 
-        /* configuração da tag de bot quando existente */
         margin-left: 9px;
 
         background-color: var(--discord);
@@ -82,9 +81,11 @@ export const User = styled.div`
         
     }
 `;
+// {white-space: nowrap;} Configuração para nomes muito grandes que não cabem na tela
 
+// Evita de deformar o avatar
 export const Avatar = styled.div`
-    flex-shrink: 0; /*Evita de deformar o avatar*/
+flex-shrink: 0; 
     width: 32px;
     height: 32px;
     

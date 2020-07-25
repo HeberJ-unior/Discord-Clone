@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import { Mic, Headset, Settings } from 'styled-icons/material';
 
+// Configuração visual do container de informações do usuário
 export const Container = styled.div`
-  /* Configuração visual do container de informações do usuário */
   grid-area: UI;
 
   display: flex;
@@ -14,14 +14,14 @@ export const Container = styled.div`
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
 `;
 
+// subdividindo em informações do usuário e funções de usuário
 export const Profile = styled.div`\
-/* subdividindo em informações do usuário e funções de usuário */
   display: flex;
   align-items: center;
 `;
 
+// Configurando visuais do avatar do usuário
 export const Avatar = styled.div`
-  /* Configurando visuais do avatar do usuário */
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -31,8 +31,8 @@ export const Avatar = styled.div`
 
 `;
 
+// Configurações visuais das informações do usuário
 export const UserData = styled.div`
-  /* Configurações visuais das informações do usuário */
   margin-left: 8px ;
   
   display: flex;
@@ -60,8 +60,8 @@ export const UserData = styled.div`
   }
 `;
 
+// subdividindo em informações do usuário e funções de usuário
 export const Icons = styled.div`
-/* subdividindo em informações do usuário e funções de usuário */
   display: flex;
   align-items: center;
   
@@ -70,8 +70,8 @@ export const Icons = styled.div`
   }
 `;
 
+// Configurações visuais do ícone de micofone
 export const MicIcon = styled(Mic)`
-/* Configurações visuais do ícone de micofone */
   width: 20px;
   height: 20px;
   
@@ -86,8 +86,8 @@ export const MicIcon = styled(Mic)`
   }
 `;
 
+// Configurações visuais do ícone de headphone
 export const HeadphoneIcon = styled(Headset)`
-/* Configurações visuais do ícone de headphone */
   
   width: 20px;
   height: 20px;
@@ -103,8 +103,8 @@ export const HeadphoneIcon = styled(Headset)`
   }
 `;
 
+// Configurações visuais do ícone de configurações
 export const SettingsIcon = styled(Settings)`
-/* Configurações visuais do ícone de configurações */
 width: 20px;
   height: 20px;
   

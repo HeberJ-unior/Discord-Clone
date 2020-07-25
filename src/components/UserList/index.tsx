@@ -2,15 +2,15 @@ import React from 'react';
 
 import { Container, Role, User, Avatar } from './styles';
 
+// Configuração de interface de cada usuário
 interface UserProps {
-    // Configuração de interface de cada usuário
     nickname: string;
     isBot?: boolean;
 }
 
 
+// Configuração estrutural da função BOT da lista de usuários
 const UserRow: React.FC<UserProps> = ({ nickname, isBot }) => {
-    // Configuração estrutural da função BOT da lista de usuários
     return (
         <User>
             <Avatar className= {isBot ? 'bot' : ''} />
@@ -21,8 +21,8 @@ const UserRow: React.FC<UserProps> = ({ nickname, isBot }) => {
     )
 }
 
+// Configuração estrutural da lista de usuários
 const UserList: React.FC = () => {
-    // Configuração estrutural da lista de usuários
     return (
         <Container>
             <Role>Disponível - 1</Role>
